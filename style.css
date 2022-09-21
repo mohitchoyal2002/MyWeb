@@ -206,10 +206,13 @@ section {
   border-radius: var(--br-sm-2);
   height: 90%;
   width: 68%;
-  margin-left: 4rem;
+  margin-left: 2rem;
   background-color: var(--color-balck);
   transition: all 0.4s ease-in-out;
   filter: grayscale(100%);
+}
+.header-content .left-header .image img {
+  width: 91%;
 }
 .header-content .left-header .image:hover {
   filter: grayscale(0%);
@@ -221,7 +224,7 @@ section {
   padding-right: 18rem;
 }
 .header-content .right-header .name {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .header-content .right-header .name span {
   color: var(--color-secondary);
