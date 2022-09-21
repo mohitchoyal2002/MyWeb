@@ -1,3 +1,4 @@
+
 const sections = document.querySelectorAll('.section');
 const sectBtns = document.querySelectorAll('.controls');
 const sectBtn = document.querySelectorAll('.control');
@@ -38,5 +39,12 @@ function pageTransition(){
         element.classList.toggle('light-mode');
     })
 }
+
+let typed = new Typed(".auto-type",{
+    strings:["Mohit Choyal","Web Devloper"],
+    typeSpeed : 150,
+    backSpeed: 150,
+    loop:true
+});
 
 pageTransition();
