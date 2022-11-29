@@ -41,7 +41,7 @@ function pageTransition(){
 }
 
 let typed = new Typed(".auto-type",{
-    strings:["Mohit Choyal","Web Devloper"],
+    strings:["Mohit Choyal","Web Developer"],
     typeSpeed : 150,
     backSpeed: 150,
     loop:true
